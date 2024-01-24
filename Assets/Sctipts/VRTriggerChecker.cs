@@ -18,7 +18,7 @@ public class VRTriggerChecker : MonoBehaviour
     void Update()
     {
         // Check if the trigger button is pressed
-        if (_triggerAction.ReadValue<float>() > 0.5f)
+        if (_triggerAction.ReadValue<float>() > 0.1f)
         {
             // Do something when the trigger is pressed
             Debug.Log("Trigger button pressed!");
